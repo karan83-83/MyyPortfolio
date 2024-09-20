@@ -1,0 +1,98 @@
+.main{
+    display: flex;
+    padding: 5%;
+    position: relative;
+}
+.main .main-c{
+    position: absolute;
+     text-align: left;
+     top: 100%;
+     left: 15%;
+     
+
+}
+.main .main-m{
+   
+    position: absolute;
+    right: 10%;
+    top: 15%;
+}
+.main .main-m img{
+    width: 400px;
+    height: 500px;
+    animation: gangh 1s steps(23, start) infinite, 
+    movearound 2s steps(69, end) infinite alternate 44ms;
+    /* animation-duration: normal,alternate; */
+}
+@keyframes gangh {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100px); }
+}
+
+
+@keyframes movearound {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100px); }
+}
+.main .main-c h1{
+    font-size: 55px;
+}
+.main-c p{
+    font-size: 20px;
+   font-weight: 500;
+}
+
+@media screen and (max-width:768px){
+    .m{
+        height: 20vh;
+      position: relative;
+       }
+    .main{
+        
+       
+       margin-bottom: 10px;
+    }
+    .main .main-m img{
+      height: 200px;
+      width: 130px;
+   
+     
+        
+      
+       
+    }
+    .main .main-c{
+        margin-top: 40px;
+        /* margin-left: -10px; */
+    }
+    .main .main-c p{
+        font-size: 15px;
+        margin-left: -25px;
+    }
+   .main .main-c h1 {
+   
+    margin-left: -25px;
+    text-align: left;
+    font-size: 25px;
+    
+   }
+   .main .main-m img{
+   
+    animation: gangh 1s steps(23, start) infinite, 
+    movearound 2s steps(69, end) infinite alternate 44ms;
+    /* animation-duration: normal,alternate; */
+}
+@keyframes gangh {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(50px); }
+}
+
+
+@keyframes movearound {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(50px); }
+}
+ 
+
+    
+}

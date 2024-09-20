@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Node.js dependencies
+node_modules/
+
+# Build directory (for React)
+build/
+
+# Logs and environment files
+*.log
+.env
+
