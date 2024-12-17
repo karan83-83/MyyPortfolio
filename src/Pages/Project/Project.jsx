@@ -4,9 +4,25 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer/Footer';
 
 const projects = [
+
+  {
+    title: 'Moto Dresser',
+    description: 'Motodresser is an e-commerce platform specializing in premium motorcycle gear, accessories, and apparel, catering to riders safety and style needs. It offers a curated selection of high-quality products for motorcycle enthusiasts.',
+    github: 'https://github.com/karan83-83/myportfolio',
+    liveDemo: 'https://motodresser.com/',
+    style:"https://img.freepik.com/free-photo/blur-hospital-clinic-interior_74190-5191.jpg"
+  },
+
+  {
+    title: 'Brighter Future',
+    description: 'The BrighterFuture website is a platform dedicated to empowering individuals through resources, tools, and programs focused on education, career development, and personal growth. It aims to create opportunities for a better tomorrow by connecting users with valuable content and guidance.',
+    github: 'https://github.com/karan83-83/myportfolio',
+    liveDemo: 'https://brighterfutureif.com/',
+    style:"https://img.freepik.com/free-photo/blur-hospital-clinic-interior_74190-5191.jpg"
+  },
   {
     title: 'Portfolio Web',
-    description: 'A personal portfolio website to showcase my work and skills. Built using React.js, CSS, and responsive design.',
+    description: 'A portfolio website is a personal platform showcasing your skills, projects, and experiences to highlight your work and expertise. It serves as a digital resume to attract potential employers, clients, or collaborators.',
     github: 'https://github.com/karan83-83/myportfolio',
     liveDemo: ' https://karan83-83.github.io/myportfolio/',
     style:"https://img.freepik.com/free-photo/blur-hospital-clinic-interior_74190-5191.jpg"

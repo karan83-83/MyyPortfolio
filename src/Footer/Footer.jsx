@@ -41,7 +41,7 @@ const Footer = () => {
               <li><a href="https://www.facebook.com/profile.php?id=100087917567957"><i className="fab fa-facebook"></i></a></li>
               <li><a href="https://in.pinterest.com/pin/315181673934782817/"><i className="fab fa-pinterest"></i></a></li>
             </ul>
-            <Link to={'/contact'}><a href="#contact" className="contact-btn">Contact Us</a></Link>
+            <Link to={'/contact'} className="contact-btn" >Contact Us </Link>
           </div>
         </div>
 

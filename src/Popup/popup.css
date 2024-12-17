@@ -69,12 +69,18 @@
       width: 90%;
       padding: 15px;
     }
+    
     .popup-content h2{
       text-align: center;
     }
   
     .popup-close-btn {
      position: absolute;
+    }
+    .popup-content {
+      background:url('hq720.jpg');
+      height: 100px;
+      width: 100px;
     }
   }
   

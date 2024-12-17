@@ -36,19 +36,20 @@
        padding-top: 10px;
       display: flex;
       flex-direction: column;
-      height: 120vh;
+      height: 135vh;
       position: relative;
 
         
     }
     .main1 .main1-m img{
         width: 330px;
-        height: 200px;
+        height: 300px;
+        margin-left: 13px;
     }
     .main1 .main1-c{
         position: absolute;
-        margin-top: 50%;
-     left: 10%;
+        margin-top: 60%;
+        left: 12%;
      
     }
     .main1 .main1-c h1{

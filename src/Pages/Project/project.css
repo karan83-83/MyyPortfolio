@@ -9,12 +9,13 @@
   }
   
   .projects-container {
-    /* visibility: initial; */
+    
     
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+    
   }
   
   .projects-container h1 {
@@ -26,8 +27,10 @@
   
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
+    overflow: hidden;
+  
   }
   
   .project-card {
@@ -37,6 +40,7 @@
     background-size: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 1s ease-in-out;
+    overflow: hidden;
     /* backdrop-filter: blur(100px); */
   }
   
@@ -54,9 +58,12 @@
   }
   
   .project-card p {
+    width: 300px;
     margin-top: 30px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #555;
+    text-align: center;
+    margin-left: -12%;
     margin-bottom: 1.5rem;
   }
   
@@ -89,6 +96,9 @@
   
     .project-card h2 {
       font-size: 1.5rem;
+    }
+    .project-card p{
+      margin-left: -13%;
     }
   }
   

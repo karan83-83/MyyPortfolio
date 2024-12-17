@@ -10,6 +10,7 @@ import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import Error from './Pages/Error/Error';
 
+
 const routes = createBrowserRouter([
     {
         path: '/',
@@ -30,6 +31,7 @@ const routes = createBrowserRouter([
         path: '/contact',
         element:<Contact/>
     },
+   
     {
         path: '*',
         element:<Error/>
