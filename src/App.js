@@ -8,7 +8,7 @@ import Home from './Home/Home';
 import Project from './Pages/Project/Project';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
-import Error from './Pages/Error/Error';
+// import Error from './Pages/Error/Error';
 
 
 const routes = createBrowserRouter([
@@ -32,10 +32,10 @@ const routes = createBrowserRouter([
         element:<Contact/>
     },
    
-    {
-        path: '/error',
-        element:<Error/>
-    }
+    // {
+    //     path: '/error',
+    //     element:<Error/>
+    // }
     
     
     
