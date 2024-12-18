@@ -9,7 +9,7 @@ export default function Section1() {
                   <p>Mern Stack Developer</p>
                   <h1>I'm <span style={{ color: '#C244A7' }}>Karan</span>
                   <br />Panchal From India</h1>
-                 
+               <a href="/contact">    <button className='btn'>Contact Us!</button></a>
               </div>
               <div className='main-m'>
                   <img src={img} alt=""  />

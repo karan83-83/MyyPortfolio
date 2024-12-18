@@ -26,6 +26,18 @@
     movearound 2s steps(69, end) infinite alternate 44ms;
     /* animation-duration: normal,alternate; */
 }
+
+.btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    background-color: #CA3AAA ;
+    color: white;
+   border-radius: 2px;
+   padding-left: 30px;
+   padding-right: 30px;
+   font-size: 20px;
+}
 @keyframes gangh {
     0% { transform: translateX(0); }
     100% { transform: translateX(100px); }
@@ -62,6 +74,12 @@
         
       
        
+    }
+    .btn{
+        position: absolute;
+        left: -30px;
+        padding: 10px 20px 10px 20px;
+      
     }
     .main .main-c{
         margin-top: 40px;
