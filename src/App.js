@@ -33,7 +33,7 @@ const routes = createBrowserRouter([
     },
    
     {
-        path: '*',
+        path: '/error',
         element:<Error/>
     }
     
