@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Redirect all requests to index.html
+        var path = window.location.pathname;
+        var redirectUrl = window.location.origin + "/portfolio"; // Replace "portfolio" with your repo name
+        if (path !== "/portfolio/" && !path.startsWith("/portfolio/static/")) {
+          window.location.replace(redirectUrl);
+        }
+      </script>
+      
+</body>
+</html>
