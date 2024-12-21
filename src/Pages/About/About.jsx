@@ -28,11 +28,8 @@ export default function About() {
             <h2>Skills</h2>
             <ul className="skills-list">
               <li><span>HTML & CSS</span></li>
-              <li><span>JavaScript (ES6+)</span></li>
-              <li><span>React.js</span></li>
-              <li><span>Node.js</span></li>
-              <li><span>Mongo DB</span></li>
-              <li><span>Express.js</span></li>
+              <li><span>MERN</span></li>
+              <li><span>Problem Solving</span></li>
               <li><span>Version Control (Git & GitHub)</span></li>
             </ul>
           </div>

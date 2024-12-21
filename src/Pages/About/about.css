@@ -15,7 +15,7 @@
 
 .about-header h1 {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: #C244A7;
 }
 
 .about-header p {
@@ -31,7 +31,7 @@
 
 .about-section h2 {
   font-size: 1.8rem;
-  color: #0078ff;
+  color: #C244A7;
   margin-bottom: 1rem;
   position: relative;
 }
@@ -40,7 +40,7 @@
   content: "";
   width: 60px;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #C244A7;
   position: absolute;
   bottom: -5px;
   left: 0;
@@ -79,7 +79,7 @@
 
 .contact-list a {
   text-decoration: none;
-  color: #0078ff;
+  color: #C244A7;
   font-size: 1.1rem;
   display: flex;
   align-items: center;
