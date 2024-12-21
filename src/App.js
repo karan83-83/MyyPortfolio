@@ -11,17 +11,35 @@ import Contact from './Pages/Contact/Contact';
 // import Error from './Pages/Error/Error';
 
 
-const routes = createBrowserRouter(
-    [
-        { path: '/', element: <Home /> },
-        { path: '/projects', element: <Project /> },
-        { path: '/about', element: <About /> },
-        { path: '/contact', element: <Contact /> },
-    ],
+const routes = createBrowserRouter([
     {
-        basename: '/Portfolio', // Replace "portfolio" with your GitHub repository name
+        path: '/',
+        element:<Home/>
+    },
+    {
+        path: '/projects',
+        element:<Project/>
     }
-);
+    ,
+    {
+        path: '/about',
+        element:<About/>
+    }
+    
+    ,
+    {
+        path: '/contact',
+        element:<Contact/>
+    },
+   
+    // {
+    //     path: '/error',
+    //     element:<Error/>
+    // }
+    
+    
+    
+])
 
 function App() {
     return (
