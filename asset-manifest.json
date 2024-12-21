@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/MyyPortfolio/static/css/main.d5b2dcc5.css",
+    "main.js": "/MyyPortfolio/static/js/main.edd8cc89.js",
+    "static/media/pngwing.png": "/MyyPortfolio/static/media/pngwing.185feb495505fb0d8535.png",
+    "static/media/Screenshot_20240121_214343_Instagram.jpg": "/MyyPortfolio/static/media/Screenshot_20240121_214343_Instagram.02893524baba1b278152.jpg",
+    "static/media/hq720.jpg": "/MyyPortfolio/static/media/hq720.b474227a8ef10c3c6f83.jpg",
+    "static/media/hot-line-contact-us-call-center-search-interface_53876-124009.jpg": "/MyyPortfolio/static/media/hot-line-contact-us-call-center-search-interface_53876-124009.673c202e3f4da0aa35e3.jpg",
+    "static/media/Black White Elegant Monogram Initial Name Logo.png": "/MyyPortfolio/static/media/Black White Elegant Monogram Initial Name Logo.d8b9467e64957c39d7ab.png",
+    "index.html": "/MyyPortfolio/index.html",
+    "main.d5b2dcc5.css.map": "/MyyPortfolio/static/css/main.d5b2dcc5.css.map",
+    "main.edd8cc89.js.map": "/MyyPortfolio/static/js/main.edd8cc89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5b2dcc5.css",
+    "static/js/main.edd8cc89.js"
+  ]
+}
